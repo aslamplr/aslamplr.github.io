@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      
+    
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+        <!-- SEO -->
+        
+        <title> How to setup a blog site using hugo? | Boom: Stacktrace! </title>
+        
+
+        <!-- Enable responsiveness on mobile devices-->
+        <meta name="viewport"  content="width=device-width, initial-scale=1.0, maximum-scale=1" >
+
+        <!--  css -->
+        <link rel="stylesheet"  href="https:&#x2F;&#x2F;aslamplr.github.io/ergo.css" >
+
+        <!-- fonts -->
+        <!-- preload  -->
+        <link rel="preload" href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,500,500i,600,700,800,900|Raleway" as="style">
+        <link rel="preload"  href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous" as="style" >
+        <!-- load -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:200,300,300i,400,500,500i,600,700,800,900|Raleway">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"  integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+      
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147236070-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-147236070-1');
+</script>
+    <meta name="google-site-verification" content="Qji4PNUvSln_XZuENJPHEKMURU6lvBfJqyl9aWoK7RM" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-1285079157269590",
+    enable_page_level_ads: true
+  });
+</script>
+
+
+    </head>
+
+    <body>
+      
+
+      
+<nav id="overlord" class="overlord" >
+  
+<figure class="mini_logo ">
+    <a href="https:&#x2F;&#x2F;aslamplr.github.io" style="background-image: url(https:&#x2F;&#x2F;aslamplr.github.io/img/stacktrace.png)"></a>
+</figure>
+<h5>
+    <a href="https:&#x2F;&#x2F;aslamplr.github.io">Boom: Stacktrace!</a>
+</h5>
+
+</nav>
+
+<section class="post_container">
+  <article>
+    
+      <h1 class="article_title"><a href="https:&#x2F;&#x2F;aslamplr.github.io&#x2F;my-first-post&#x2F;" id="article_link">How to setup a blog site using hugo?</a></h1>
+      
+<ul class="frontmatter frontmatter_page" id="frontmatter">
+    <li>
+        <time class="article_time"  datetime="2019-09-05T09:15:08Z">September 05, 2019</time>
+    </li>
+    <span class="dotDivider"></span>
+    <li> 1631 words </li>
+    <span class="dotDivider" ></span>
+    <li> 9 min </li>
+</ul>
+
+      <blockquote>
+<p><strong>UPDATE</strong> (on 22-May-2020): This blog was written while this site was initially setup using <strong><a href="http://gohugo.io/">Hugo</a></strong>. This site was recently migrated to <strong><a href="http://getzola.org/">Zola</a></strong>. The title of this post is also changed from <em><strong>&quot;How I setup this blog site?&quot;</strong></em> to <em><strong>&quot;How to setup a blog site using hugo?&quot;</strong></em></p>
+</blockquote>
+<p>This is supposed to be my first blog post. The truth is, this is my second blog post. I was wondering what I will write down in my first blog post other than about the &quot;Video Resnet&quot; which I already had in mind before starting to setup this site.</p>
+<blockquote>
+<p><strong>This post is for you,</strong> If you like this blog site and want to setup one for you just like this one. You are looking for a static site generator. And if you are willing to write your blog posts in <code>markdown</code> format (other format are supported by this setup like <code>html</code> and so but I won't discuss all that in this post). And bit of <del>expertise</del> familiarity with <code>git</code> and <code>github</code>. And willing to get your hands dirty in the command line. And if you love terminals. I ❤️ terminal windows!</p>
+</blockquote>
+<span id="continue-reading"></span><h2 id="static-site-generators">Static site generators?</h2>
+<p>Most of the blog sites you see in the web are of two categories. Either (i) dynamic CMS (ii) static CMS. Dynamic CMS are complex setup compared to static setup. An example for a dynamic CMS would be Wordpress. I know people love Wordpress, even I like Wordpress. But there are a lot of cogs when it comes to a Wordpress site. Because it requires a database, then a PHP server and all.</p>
+<p>Static CMS, is different as the word says everything is few static files. Your blog post is a simple file written in markdown or html. As simple as that. You don't need to worry about a lot of other stuffs like databases, migration etc.</p>
+<p><a href="https://learn.cloudcannon.com/jekyll/why-use-a-static-site-generator/">Why use a static site generator?</a> provides a good enough explanation on static site generators.</p>
+<p>Now that I have decided on static site generators. The next question is what tools I am going to use for my blog site.</p>
+<h2 id="tools">Tools?</h2>
+<p>I have the following things to be satisfied for any setup that I choose.</p>
+<ul>
+<li>Able to write my blog posts in <code>markdown</code> format.</li>
+<li>Not be bothered about the underlying technology and engine (React, Ruby, PHP etc.).</li>
+<li>Simple deployment steps.</li>
+<li>Theming ability. And availability of free to use themes.</li>
+<li>Customizability of themes without a lot of complexity.</li>
+</ul>
+<p>When the inception of the blog site occurred in my mind. I had the github.io url of my blog site in my mind (https://aslamplr.github.io). The next thing I was thinking was <code>Jekyll</code>. I am not comfortable with Ruby on rails. But I am good with ReactJS. Ideal choice for those who love react is <code>Gatsby</code>. I wasn't sure which one I should choose. I was predetermined in some abstract sort of way, that I should be using <code>Jekyll</code> mostly because of the internet. Mostly everyone who uses static blogging sites claim to use <code>Jekyll</code> and I wasn't sure what is the way forward. </p>
+<p>I searched for &quot;Jekyll vs ...&quot; google came to my help. Auto complete my query &quot;Jekyll vs hugo vs gatsby&quot;. Now that is the moment I knew there exists <code>hugo</code>. And from a short read of this article <a href="https://dzone.com/articles/static-site-generators-overview-gatsby-vs-hugo-vs">Static Site Generators Overview: Gatsby vs. Hugo vs. Jekyll</a>. I knew that I should be using <code>hugo</code> for my blog site, no matter what. It ticks mostly every criteria that I have above.</p>
+<p>All CHECK!</p>
+<ul>
+<li>Able to write my blog posts in <code>markdown</code> format.</li>
+<li>Not be bothered about the underlying technology and engine (React, Ruby, PHP etc.).    <code>hugo</code> is written in <code>golang</code> but you do not required to know anything about <code>golang</code> or setup the toolchain yourself.</li>
+<li>Simple deployment steps.</li>
+<li>Theming ability. And availability of free to use themes.   There are in fact a lot of themes available</li>
+<li>Customizability of themes without a lot of complexity.</li>
+</ul>
+<p>Now what?</p>
+<h2 id="let-s-go-hugo">Let's go &quot;hugo&quot;</h2>
+<p>I am using an <code>ubuntu</code> machine at work and a <code>Macbook Air</code> at home. So I should be able to setup with ease on both machines. Let's checkout the &quot;Getting started&quot; guide on hugo's website (https://gohugo.io/getting-started/installing/). Wow! They have a cross-platform binary distribution. That is good what else they have. Homebrew for macOS and Linuxbrew for linux. Bottles are good, let's pour them. So <code>brew</code> it is.</p>
+<p>I installed <code>hugo</code> using brew following instructions on the &quot;Install Hugo&quot; guide (https://gohugo.io/getting-started/installing/). </p>
+<pre style="background-color:#2b303b;">
+<span style="color:#c0c5ce;">$ brew install hugo
+</span></pre>
+<p>Git is a pre-requisite. I already had Git installed on my machines. </p>
+<pre style="background-color:#2b303b;">
+<span style="color:#c0c5ce;">$ hugo version
+Hugo Static Site Generator v0.57.2/extended linux/amd64 BuildDate: unknown
+</span></pre><h2 id="now-what">Now what?</h2>
+<p>I head straight to the &quot;Quick Start&quot; guide (https://gohugo.io/getting-started/quick-start/).</p>
+<p>Created a sample site and see what I could do with hugo. Play with it, tried different stuffs. </p>
+<p>The Hugo theme site (https://themes.gohugo.io/), that is where I headed next. I want to see what I have in store. What are the possibilities of theming.</p>
+<blockquote>
+<p>Trust me, at this point I know only nothing about hugo themes or hugo itself. Or how I can customize it. </p>
+</blockquote>
+<p>This is a confusing task, to select a theme. I want something minimal and something intuitive and familiar. Don't want a lot of noise and glitters.</p>
+<p>Anyway I am going to write about deep learning, coding, web and stuff. Or at least that is what I think I am going to post in this blog at this point in time. So the theme should be good enough for the purpose thats it.</p>
+<p>I shortlisted few of the themes which I like.</p>
+<ul>
+<li>Academic</li>
+<li>Paperback</li>
+<li>Book</li>
+<li>Hugo Dusk</li>
+<li>Hyde (The famous fast.ai website is using this one!)</li>
+<li>Minimo</li>
+<li>Coder</li>
+<li>Hugo Classic</li>
+<li>Hyde Hyde (The one that I choose)</li>
+<li>Mediumish (Wanted this one but felt like bloated)</li>
+</ul>
+<p>Settled for &quot;Hyde Hyde&quot; (https://themes.gohugo.io/hyde-hyde/).</p>
+<p>It is a fork of &quot;Hyde&quot; theme. I like the simplicity of &quot;Hyde&quot; theme. I wanted something similar. </p>
+<p>Instead of installing the theme directly onto your project it is better to submodule it. And again for the sake of customizability I suggest forking the repository in Github and using the fork in your project. This way you get the flexibility of tweaking the layout and stuff.</p>
+<h2 id="next-steps">Next steps</h2>
+<p><strong>Created a new hugo site</strong></p>
+<pre style="background-color:#2b303b;">
+<span style="color:#c0c5ce;">hugo new site infinite-study # you should put your blog site name instead of `infinite-study`
+
+# Let&#39;s go inside our hugo blog project
+cd infinite-study
+
+# Initialize a git repository
+git init
+</span></pre>
+<p><strong>Now what?</strong> Let's add our <code>hide-hide</code> theme from the forked repo.</p>
+<p>For those of you who what to fork the theme login to Github and goto the theme repo - https://github.com/htr3n/hyde-hyde. And click the &quot;Fork&quot; button. Select the account that you want to fork the repo into (This is in case you have organization memberships). Now get the git remote url of your repo. Mine is <code>git@github.com:aslamplr/hyde-hyde.git</code></p>
+<p>Head back to the terminal window.</p>
+<pre style="background-color:#2b303b;">
+<span style="color:#c0c5ce;">git submodule add -b master git@github.com:aslamplr/hyde-hyde.git themes/hyde-hyde
+
+# This should clone the theme repo onto `themes/hyde-hyde` directory in your blog project tree.
+</span></pre>
+<p>Now, let's add the theme to <code>config.toml</code> file. The file should be available in the root of your blog project.</p>
+<p>Mine look like this after the edit.</p>
+<pre style="background-color:#2b303b;">
+<span style="color:#65737e;">## Basic Configuration
+</span><span style="color:#bf616a;">baseURL </span><span style="color:#c0c5ce;">= &quot;</span><span style="color:#a3be8c;">https://aslamplr.github.io/</span><span style="color:#c0c5ce;">&quot;
+</span><span style="color:#bf616a;">languageCode </span><span style="color:#c0c5ce;">= &quot;</span><span style="color:#a3be8c;">en-us</span><span style="color:#c0c5ce;">&quot;
+
+</span><span style="color:#bf616a;">title </span><span style="color:#c0c5ce;">= &quot;</span><span style="color:#a3be8c;">Infinite Study</span><span style="color:#c0c5ce;">&quot;
+</span><span style="color:#bf616a;">theme </span><span style="color:#c0c5ce;">= &quot;</span><span style="color:#a3be8c;">hyde-hyde</span><span style="color:#c0c5ce;">&quot;
+
+</span><span style="color:#65737e;">## Site Settings
+</span><span style="color:#c0c5ce;">[params]
+    </span><span style="color:#bf616a;">author </span><span style="color:#c0c5ce;">= &quot;</span><span style="color:#a3be8c;">Aslam Ahammed</span><span style="color:#c0c5ce;">&quot;
+    </span><span style="color:#bf616a;">title </span><span style="color:#c0c5ce;">= &quot;</span><span style="color:#a3be8c;">Infinite Study</span><span style="color:#c0c5ce;">&quot;
+    </span><span style="color:#bf616a;">description </span><span style="color:#c0c5ce;">= &quot;</span><span style="color:#a3be8c;">My deep dive into deep learning and AI</span><span style="color:#c0c5ce;">&quot;
+    </span><span style="color:#bf616a;">authorimage </span><span style="color:#c0c5ce;">= &quot;</span><span style="color:#a3be8c;">/img/logo.png</span><span style="color:#c0c5ce;">&quot;
+    </span><span style="color:#bf616a;">dateformat </span><span style="color:#c0c5ce;">= &quot;</span><span style="color:#a3be8c;">Monday, Jan 2, 2006</span><span style="color:#c0c5ce;">&quot;
+
+    </span><span style="color:#65737e;"># sidebar, copyright &amp; licence
+    </span><span style="color:#bf616a;">copyright </span><span style="color:#c0c5ce;">= &quot;</span><span style="color:#a3be8c;">@aslamplr</span><span style="color:#c0c5ce;">&quot;
+    </span><span style="color:#bf616a;">licence </span><span style="color:#c0c5ce;">= &quot;</span><span style="color:#a3be8c;">CC BY-SA 4.0</span><span style="color:#c0c5ce;">&quot;
+    </span><span style="color:#bf616a;">licenseURL </span><span style="color:#c0c5ce;">= &quot;</span><span style="color:#a3be8c;">https://creativecommons.org/licenses/by-sa/4.0</span><span style="color:#c0c5ce;">&quot;
+    </span><span style="color:#bf616a;">showBuiltWith </span><span style="color:#c0c5ce;">= </span><span style="color:#d08770;">true
+
+    </span><span style="color:#bf616a;">highlightjs </span><span style="color:#c0c5ce;">= </span><span style="color:#d08770;">true
+    </span><span style="color:#bf616a;">hughlightjsstyle </span><span style="color:#c0c5ce;">= &quot;</span><span style="color:#a3be8c;">github</span><span style="color:#c0c5ce;">&quot;
+
+</span><span style="color:#65737e;">## Social Accounts
+</span><span style="color:#c0c5ce;">[params.social]
+    </span><span style="color:#bf616a;">github </span><span style="color:#c0c5ce;">= &quot;</span><span style="color:#a3be8c;">aslamplr</span><span style="color:#c0c5ce;">&quot;
+    </span><span style="color:#bf616a;">twitter </span><span style="color:#c0c5ce;">= &quot;</span><span style="color:#a3be8c;">aslamplr</span><span style="color:#c0c5ce;">&quot;
+
+</span><span style="color:#65737e;">## Main Menu
+</span><span style="color:#c0c5ce;">[[menu.main]]
+    </span><span style="color:#bf616a;">name </span><span style="color:#c0c5ce;">= &quot;</span><span style="color:#a3be8c;">Posts</span><span style="color:#c0c5ce;">&quot;
+    </span><span style="color:#bf616a;">weight </span><span style="color:#c0c5ce;">= </span><span style="color:#d08770;">100
+    </span><span style="color:#bf616a;">identifier </span><span style="color:#c0c5ce;">= &quot;</span><span style="color:#a3be8c;">posts</span><span style="color:#c0c5ce;">&quot;
+    </span><span style="color:#bf616a;">url </span><span style="color:#c0c5ce;">= &quot;</span><span style="color:#a3be8c;">/posts/</span><span style="color:#c0c5ce;">&quot;
+[[menu.main]]
+    </span><span style="color:#bf616a;">name </span><span style="color:#c0c5ce;">= &quot;</span><span style="color:#a3be8c;">About Me</span><span style="color:#c0c5ce;">&quot;
+    </span><span style="color:#bf616a;">identifier </span><span style="color:#c0c5ce;">= &quot;</span><span style="color:#a3be8c;">about</span><span style="color:#c0c5ce;">&quot;
+    </span><span style="color:#bf616a;">weight </span><span style="color:#c0c5ce;">= </span><span style="color:#d08770;">300
+    </span><span style="color:#bf616a;">url </span><span style="color:#c0c5ce;">= &quot;</span><span style="color:#a3be8c;">/about/</span><span style="color:#c0c5ce;">&quot;
+</span></pre>
+<p><strong>Let's create the first post</strong></p>
+<pre style="background-color:#2b303b;">
+<span style="color:#c0c5ce;">hugo new posts/my-first-post.md
+</span></pre>
+<p>Wow now I have a file <code>content/posts/my-first-post.md</code> with the following content in it.</p>
+<pre style="background-color:#2b303b;">
+<span style="background-color:#4f5b66;color:#c0c5ce;">---
+</span><span style="color:#c0c5ce;">title: &quot;My First Post&quot;
+date: 2019-09-05T14:45:08+05:30
+draft: true
+</span><span style="color:#8fa1b3;">---
+</span></pre>
+<p>I have added some content to test everything. And run the hugo server.</p>
+<pre style="background-color:#2b303b;">
+<span style="color:#c0c5ce;">hugo server -D
+</span></pre>
+<p>Now head to http://localhost:1313/ if everything is in order. You should see a beautiful website with the Hyde Hyde theme.</p>
+<p><strong>Well and good, now what? don't you want to deploy your site.</strong></p>
+<p>There are a whole bunch of options to deploy your hugo site. Since I am going to deploy on Github as github pages. I head over to &quot;Hosting on GitHub&quot; (https://gohugo.io/hosting-and-deployment/hosting-on-github/) guide on hugo website.</p>
+<p>From there it's real easy just follow along and you should be ready to deploy your content. Before running the <code>./deploy.sh</code> make sure that you have made the <code>draft: false</code> in your post if you want to get it published.</p>
+<p>My hyde-hyde theme fork - https://github.com/aslamplr/hyde-hyde My blog repo - https://github.com/aslamplr/blog My GitHub pages repo - https://github.com/aslamplr/aslamplr.github.io</p>
+<p>I don't have a discuss plugin or comments feature as of now. I will be working on enabling those soon. Till then you don't have a better way of contacting me other than emails.</p>
+<p>My email - aslamplr(at)gmail(dot)com (don't spam bomb me please!)</p>
+<p>Thank you for reading my post! I appreciate you spend your time reading my post. Please email me in case you followed my post and are stuck with your setup or anything related to this. I am happy to help you out or point you to the right direction.</p>
+<p>Thank you!</p>
+
+      
+  </article>
+</section>
+
+       
+
+      <footer>
+        
+          
+<figure class="mini_logo ">
+    <a href="https:&#x2F;&#x2F;aslamplr.github.io" style="background-image: url(https:&#x2F;&#x2F;aslamplr.github.io/img/stacktrace.png)"></a>
+</figure>
+<h5>
+    <a href="https:&#x2F;&#x2F;aslamplr.github.io">Boom: Stacktrace!</a>
+</h5>
+
+          
+<ul class="social_list foot_list" >
+    
+    
+    <li class="button extra_small font_faint"><a href="https://github.com/aslamplr" target="_blank" >aslamplr</a><i class="fab fa-github" ></i></li>
+    
+    
+    <li class="button extra_small font_faint"><a href="https://twitter.com/aslamplr" target="_blank">@aslamplr</a><i class="fab fa-twitter" ></i></li>
+    
+    
+    
+    
+    
+    
+    
+    <li class="button extra_small font_faint"><a href="mailto:aslamplr+code-blog@gmail.com?subject=hi" target="_blank">say hello</a><i class="fas fa-envelope" ></i></li>
+    
+    
+    <li class="button extra_small font_faint"><a href="https:&#x2F;&#x2F;aslamplr.github.io/rss.xml" target ="_blank">rss</a><i class="fas fa-rss" ></i></li>
+    
+</ul>
+
+        
+      </footer>
+    </body>
+</html>

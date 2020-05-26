@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+        <url>
+            <loc>https://aslamplr.github.io/drafts/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https://aslamplr.github.io/drafts/docker-a-container-story/</loc>
+            
+                <lastmod>2020-05-21T19:26:54.943Z</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>https://aslamplr.github.io/drafts/flutter-an-attempt-to-learn-flutter-and-dart-programming-language/</loc>
+            
+                <lastmod>2020-05-24T17:04:55.77Z</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>https://aslamplr.github.io/drafts/k8-microservices-using-kubernetes/</loc>
+            
+                <lastmod>2020-05-21T19:28:58.455Z</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>https://aslamplr.github.io/drafts/my-first-post/</loc>
+            
+                <lastmod>2019-09-05T09:15:08Z</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>https://aslamplr.github.io/drafts/netlifycms/</loc>
+            
+                <lastmod>2020-05-22T09:58:34.335Z</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>https://aslamplr.github.io/drafts/page/1/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https://aslamplr.github.io/drafts/page/2/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https://aslamplr.github.io/drafts/page/3/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https://aslamplr.github.io/drafts/rust-programming-language-primer/</loc>
+            
+                <lastmod>2020-05-21T19:32:32.222Z</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>https://aslamplr.github.io/drafts/video-resnet/</loc>
+            
+                <lastmod>2019-09-05T11:13:14Z</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>https://aslamplr.github.io/drafts/warp-rest-api-service-in-rust/</loc>
+            
+                <lastmod>2020-05-21T19:33:16.432Z</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>https://aslamplr.github.io/drafts/wasi-webassembly-systems-interface-and-wasmtime/</loc>
+            
+                <lastmod>2020-05-25T19:21:58.428Z</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>https://aslamplr.github.io/drafts/write-webassembly-in-rust-and-javascript-bindings/</loc>
+            
+                <lastmod>2020-05-21T19:34:08.842Z</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>https://aslamplr.github.io/drafts/zola-the-migration-experience/</loc>
+            
+                <lastmod>2020-05-21T19:16:51.301Z</lastmod>
+            
+        </url>
+    
+</urlset>

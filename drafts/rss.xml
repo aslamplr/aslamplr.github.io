@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Boom: Stacktrace!</title>
+        <link>https://aslamplr.github.io/drafts</link>
+        <description>Intentionally missing description.</description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://aslamplr.github.io/drafts/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Mon, 25 May 2020 19:21:58 +0000</lastBuildDate>
+        
+            <item>
+                <title>WASI: WebAssembly Systems Interface and Wasmtime</title>
+                <pubDate>Mon, 25 May 2020 19:21:58 +0000</pubDate>
+                <link>https://aslamplr.github.io/drafts/wasi-webassembly-systems-interface-and-wasmtime/</link>
+                <guid>https://aslamplr.github.io/drafts/wasi-webassembly-systems-interface-and-wasmtime/</guid>
+                <description>&lt;p&gt;WASI: WebAssembly Systems Interface and Wasmtime a system runtime for wasm + wasi &lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>Flutter: An attempt to learn Flutter and Dart programming language!</title>
+                <pubDate>Sun, 24 May 2020 17:04:55 +0000</pubDate>
+                <link>https://aslamplr.github.io/drafts/flutter-an-attempt-to-learn-flutter-and-dart-programming-language/</link>
+                <guid>https://aslamplr.github.io/drafts/flutter-an-attempt-to-learn-flutter-and-dart-programming-language/</guid>
+                <description>&lt;p&gt;&lt;strong&gt;Flutter&lt;&#x2F;strong&gt; is an UI rendering engine and framework works for building simple and fast mobile applications both for Android and iOS. A hybrid approach like ionic or React Native but this is far better since it compiles everything down to native code which renders on the canvas infrastructure provided by the platform.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Dart&lt;&#x2F;strong&gt; is programming language for working with Flutter. Dart is more UI centric programming language (is what the official site claims it to be with hot reloading capabilities and all). &lt;&#x2F;p&gt;
+&lt;h3 id=&quot;why-i-am-interested-in-flutter-dart-lately&quot;&gt;Why I am interested in Flutter &amp;amp; Dart lately?&lt;&#x2F;h3&gt;
+&lt;p&gt;My Frontend application development activity is limited to web. I have Javascript&#x2F;Typescript with React&#x2F;Vue in my tool belt for any web frontend development need. I have never seriously considered filling the empty space for mobile application development. &lt;&#x2F;p&gt;
+&lt;p&gt;And now I have a requirement to write a small mobile application. And when I checked I have several options to go develop the application. But I want to take it as an oppurtunity to add a language&#x2F;framework&#x2F;tool to my toolbelt so that I have other oppurtunites opened up in near future as this is more interesting times for serious app development. &lt;&#x2F;p&gt;
+&lt;p&gt;I have never written a mobile application (except for some hobby projects while working with Tensorflow lite). I have never felt natural at writing in the Android SDK (Java + XML etc.). And never attempted at iOS (Swift or Objective C). &lt;&#x2F;p&gt;
+&lt;p&gt;And talking to my friend who had recently been aquinted with Flutter + Dart was talking really good things about it. And made me think seriously about aquiring this skillset. But I am not going to invest much time if this not coming natural to me and if the toolchain is tedious to setup which I hate these days. That is another reason I love Rust compared to my attempt learning Go. When I was trying to learn Go the toolchain and the setup and the way how it all was defined felt quite not natural to me. Rust came in really handy and natural. Especially because I come from the ease of having an easy setup like getting used to the &lt;code&gt;npm&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Enough of history. Let&#x27;s see where to get started with Flutter. Let me head to https:&#x2F;&#x2F;flutter.dev and see what is the way forward to get this setup.&lt;&#x2F;p&gt;
+&lt;p&gt;I am planning to use my MacBook Air for the setup. And I am planning to use &lt;code&gt;vscode&lt;&#x2F;code&gt; as my IDE for the development.&lt;&#x2F;p&gt;
+&lt;p&gt;I don’t want to bother myself to download Xcode or Android Studio at this point in time.&lt;&#x2F;p&gt;
+&lt;p&gt;Update: Quick change of mind, I decide to download Xcode for the sake of it. It&#x27;s downloading 8.1 GB (☹️ Not good in my opinion!)&lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;184a411695eb544100.png&quot; &#x2F;&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;cf998cd276e4395b00.png&quot; &#x2F;&gt;
+&lt;p&gt;&lt;em&gt;&lt;code&gt;Note: Xcode is necessary to do iOS development using Flutter!&lt;&#x2F;code&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Meanwhile I headed straight to the https:&#x2F;&#x2F;flutter.dev and downloading the &lt;code&gt;flutter_macos_1.17.1-stable.zip&lt;&#x2F;code&gt; which is around 1.08 GB (☹️ Not impressed again)&lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;46acf228f2d0718500.png&quot; &#x2F;&gt;
+&lt;p&gt;So its all getting downloaded and I am heading to vscode to checkout the flutter extension. &lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;1fd90d232c6cc83500.png&quot; &#x2F;&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;setting-up-the-flutter-sdk&quot;&gt;Setting up the Flutter SDK&lt;&#x2F;h3&gt;
+&lt;p&gt;After the download, unzipped the &lt;code&gt;flutter_macos_1.17.1-stable.zip&lt;&#x2F;code&gt; to the &lt;code&gt;~&#x2F;Downloads&#x2F;&lt;&#x2F;code&gt; itself for now! Yet to graduate to my &lt;code&gt;$HOME&lt;&#x2F;code&gt;!&lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;581c9752d47e8d0600.png&quot; &#x2F;&gt;
+&lt;p&gt;Time to run &lt;code&gt;flutter doctor&lt;&#x2F;code&gt; see what dependencies are missing!&lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;517a882871e9c73000.png&quot; &#x2F;&gt;
+&lt;p&gt;To be honest I didn&#x27;t like a bit about this setup. All contrived and complicated seems not straight forward. Lot of dependencies like having to install both &lt;code&gt;Xcode&lt;&#x2F;code&gt; and &lt;code&gt;Android Studio&lt;&#x2F;code&gt; and in addition to that &lt;code&gt;Cocoapods&lt;&#x2F;code&gt; which again requires ruby gem! ☹️ Huge disappointment so far!&lt;&#x2F;p&gt;
+&lt;p&gt;Let me see!&lt;&#x2F;p&gt;
+&lt;p&gt;After setting up the following as suggested by the &lt;code&gt;flutter doctor&lt;&#x2F;code&gt; output:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Xcode (xcode-select switch, xcodebuild install)&lt;&#x2F;li&gt;
+&lt;li&gt;vscode (Install flutter extension)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;&lt;em&gt;Note: vscode was complaining that it couldn&#x27;t find Flutter SDK, so moved flutter SDK to home and add path extension to the &lt;code&gt;~&#x2F;.profile&lt;&#x2F;code&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Run &lt;code&gt;flutter-doctor&lt;&#x2F;code&gt; after all that from &lt;code&gt;vscode&lt;&#x2F;code&gt;. Still complaining about the missing Android Toolchain and Android Studio. &lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;bb5e496fa60345bb00.png&quot; &#x2F;&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;7a83a84d53503b3500.png&quot; &#x2F;&gt;
+&lt;p&gt;&lt;strong&gt;Setting up Android SDK&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I cannot ignore installing Android SDK (remember the market share of Android in India is huge, so any app you are developing to appeal entire population should have an Android app in the play store is a must). But, I do not want to install Android Studio. Let me see what options do I have? After a google search and couple of clicks I ended up in this page where there are several options including one with &amp;quot;Command line tools only&amp;quot; bliss! &lt;a href=&quot;https:&#x2F;&#x2F;developer.android.com&#x2F;studio#downloads&quot;&gt;https:&#x2F;&#x2F;developer.android.com&#x2F;studio#downloads&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;4ffa78262599c52200.png&quot; &#x2F;&gt;
+&lt;p&gt;Let&#x27;s download it, what a bliss it&#x27;s only 81.7 MB!&lt;&#x2F;p&gt;
+&lt;p&gt;Extracted the archive after download, moved everything to my $HOME and added the bin directory to my $PATH. And run &lt;code&gt;sdkmanager&lt;&#x2F;code&gt; boom!&lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;5de68096b824be7100.png&quot; &#x2F;&gt;
+&lt;p&gt;I forgot AndroidSDK requires &lt;code&gt;JDK&lt;&#x2F;code&gt; - The Java Development Kit. I decided to give it a hold for now! It&#x27;s been around 2 hours after I started to setup Flutter. Including all the downloads and installation etc.&lt;&#x2F;p&gt;
+&lt;p&gt;Let me come back to you later! Flutter!&lt;&#x2F;p&gt;
+&lt;p&gt;I have decided to download Android Studio rather than setting up JDK. Since I have uninstalled JDK sometimes back, I no longer remember when, as it no longer comes with commercial usage license for public. &lt;&#x2F;p&gt;
+&lt;p&gt;Downloading the Android Studio its around 805 MB download for Mac. Which is a lighter download considering the fact that Xcode is 8.1 GB. It comes everything bundled Android SDK + JDK etc (This what I thought initially). &lt;&#x2F;p&gt;
+&lt;p&gt;Let&#x27;s open it! It requires to download the Android SDK again and the virtual device which is another 1 GB+. I am OK with it atleast because, you don&#x27;t need to set it up manually. The installer takes care of it. Which is a huge relief at this point in time.&lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;6bb280bf7d0017b500.png&quot; &#x2F;&gt;
+&lt;p&gt;Its stuck downloading &amp;quot;https:&#x2F;&#x2F;dl.google.com&#x2F;android&#x2F;repository&#x2F;sys-img&#x2F;google_apis&#x2F;x86-29_r10.zip&amp;quot; &lt;&#x2F;p&gt;
+&lt;p&gt;Let&#x27;s see what&#x27;s the size of the resource. &lt;code&gt;curl -I https:&#x2F;&#x2F;dl.google.com&#x2F;android&#x2F;repository&#x2F;sys-img&#x2F;google_apis&#x2F;x86-29_r10.zip&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;bed66bcd4e66f66b00.png&quot; &#x2F;&gt;
+&lt;p&gt;Oh! it&#x27;s another 1+ GB. ☹️&lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;b0927ca791b8d0eb00.png&quot; &#x2F;&gt;
+&lt;p&gt;Bam! It asked for admin privileges!&lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;460e3fb856e9e8cb00.png&quot; &#x2F;&gt;
+&lt;p&gt;Huh! &lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;5f6e357dee1d8f6600.png&quot; &#x2F;&gt;
+&lt;p&gt;The installation finished at last!&lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;deed2e0d6578905100.png&quot; &#x2F;&gt;
+&lt;p&gt;The Android Studio welcome screen! &lt;&#x2F;p&gt;
+&lt;p&gt;Run &lt;code&gt;flutter doctor&lt;&#x2F;code&gt; again and see if all good and green!
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;1dede9f545ae2ece00.png&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Bam! No!&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;span style=&quot;color:#c0c5ce;&quot;&gt;...
+[!] Android toolchain - develop for Android devices (Android SDK version 29.0.3)
+    ✗ Android licenses not accepted.  To resolve this, run: flutter doctor
+      --android-licenses
+...
+[!] Android Studio (version 3.6)
+    ✗ Flutter plugin not installed; this adds Flutter specific functionality.
+    ✗ Dart plugin not installed; this adds Dart specific functionality.
+...
+&lt;&#x2F;span&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;These seems simple enough complaints, lets resolve these!&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;code&gt;flutter doctor --android-licenses&lt;&#x2F;code&gt; Oh! I am going crazy again &lt;code&gt;Accept (y&#x2F;N):&lt;&#x2F;code&gt; or die.&lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;2d237209ef8eb84300.png&quot; &#x2F;&gt;
+&lt;p&gt;And install the Flutter plugin (+ Dart plugin) for Android Studio&lt;&#x2F;p&gt;
+&lt;p&gt;Run &lt;code&gt;flutter doctor&lt;&#x2F;code&gt; again, see where we are –&lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;be64747f6d65b59100.png&quot; &#x2F;&gt;
+&lt;p&gt;Seems like the doctor is happy for the time being!&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;let-s-write-some-customery-hello-world&quot;&gt;Let&#x27;s write some customery &amp;quot;Hello, World!&amp;quot;&lt;&#x2F;h3&gt;
+&lt;p&gt;Create a flutter project &lt;code&gt;flutter create hello_flutter&lt;&#x2F;code&gt;. &lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;82ec0a812196f00500.png&quot; &#x2F;&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;fb359cad8303229e00.png&quot; &#x2F;&gt;
+&lt;p&gt;Change directory to the created project directory &lt;code&gt;cd hello_flutter&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Let&#x27;s run the automatically created flutter project &lt;code&gt;flutter run&lt;&#x2F;code&gt;. &lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;span style=&quot;color:#c0c5ce;&quot;&gt;No supported devices connected.
+&lt;&#x2F;span&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Yes! you need to connect a device in order to install the application and run it. It can be a virtual device or an actual device connected.&lt;&#x2F;p&gt;
+&lt;p&gt;For running iOS you need to run &lt;code&gt;Simulator&lt;&#x2F;code&gt; and for Android &lt;code&gt;emulator&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;This is when I realised none of the Android SDK command line tools are in my $PATH. This is how my $PATH extensions in &lt;code&gt;~&#x2F;.profile&lt;&#x2F;code&gt; looks like –&lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;b57d11116390925300.png&quot; &#x2F;&gt;
+&lt;ul&gt;
+&lt;li&gt;Flutter commands are already in $PATH.&lt;&#x2F;li&gt;
+&lt;li&gt;Android SDK CLI tools.&lt;&#x2F;li&gt;
+&lt;li&gt;Add JDK bundled with Android Studio into JAVA_HOME (it is required by the Android SDK CLI tools).&lt;&#x2F;li&gt;
+&lt;li&gt;Android Emulator as well.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Now let&#x27;s check the CLI tool &lt;code&gt;avdmanager&lt;&#x2F;code&gt; to see all created images (By default it comes with a Nexus image).&lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;f7f4b5a01b36c6c000.png&quot; &#x2F;&gt;
+&lt;p&gt;Let&#x27;s see if this avd is getting picked up by emulator.&lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;65b7b6b749f3465500.png&quot; &#x2F;&gt;
+&lt;p&gt;Start the Android emulator for the Nexus device.&lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;47fb141b017588b300.png&quot; &#x2F;&gt;
+&lt;p&gt;Wow!&lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;56c140660780da0600.png&quot; &#x2F;&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;3fab0e2239365fe400.png&quot; &#x2F;&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;98ad66a30e66ec6b00.png&quot; &#x2F;&gt;
+&lt;p&gt;Let&#x27;s run the flutter app once again &lt;code&gt;flutter run&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;2faa57fc51717f2d00.png&quot; &#x2F;&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;2e2b6f1921aa68fd00.png&quot; &#x2F;&gt;
+&lt;p&gt;The app is installed and running in the emulator device – &lt;&#x2F;p&gt;
+&lt;img src=&quot;https:&amp;#x2F;&amp;#x2F;aslamplr.github.io&amp;#x2F;drafts&amp;#x2F;processed_images&amp;#x2F;5192922a4b154d5d00.png&quot; &#x2F;&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Its really slow on my MacBook Air. I think if I am considering to do this seriosly need an upgrade!&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Now that it&#x27;s running for Android, let&#x27;s check the project structure and see how everything is wired!&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>NetlifyCMS</title>
+                <pubDate>Fri, 22 May 2020 09:58:34 +0000</pubDate>
+                <link>https://aslamplr.github.io/drafts/netlifycms/</link>
+                <guid>https://aslamplr.github.io/drafts/netlifycms/</guid>
+                <description>&lt;p&gt;What is NetlifyCMS?
+Why NetlifyCMS?
+How easy is it?
+The workflow explained!&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>Write WebAssembly in Rust and Javascript bindings!</title>
+                <pubDate>Thu, 21 May 2020 19:34:08 +0000</pubDate>
+                <link>https://aslamplr.github.io/drafts/write-webassembly-in-rust-and-javascript-bindings/</link>
+                <guid>https://aslamplr.github.io/drafts/write-webassembly-in-rust-and-javascript-bindings/</guid>
+                <description>&lt;p&gt;&lt;code&gt;&#x2F;&#x2F; TODO:&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>Warp: REST API Service in Rust!</title>
+                <pubDate>Thu, 21 May 2020 19:33:16 +0000</pubDate>
+                <link>https://aslamplr.github.io/drafts/warp-rest-api-service-in-rust/</link>
+                <guid>https://aslamplr.github.io/drafts/warp-rest-api-service-in-rust/</guid>
+                <description>&lt;p&gt;&lt;code&gt;&#x2F;&#x2F; TODO: &lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>Rust programming language primer!</title>
+                <pubDate>Thu, 21 May 2020 19:32:32 +0000</pubDate>
+                <link>https://aslamplr.github.io/drafts/rust-programming-language-primer/</link>
+                <guid>https://aslamplr.github.io/drafts/rust-programming-language-primer/</guid>
+                <description>&lt;p&gt;&lt;code&gt;&#x2F;&#x2F; TODO:&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;memory-safety&quot;&gt;Memory Safety&lt;&#x2F;h2&gt;
+&lt;p&gt;Chromium issues reddit post&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;rust&#x2F;comments&#x2F;gpdorw&#x2F;the_chromium_project_finds_that_around_70_of_our&#x2F;?utm_source=share&amp;amp;utm_medium=ios_app&amp;amp;utm_name=iossmf&quot;&gt;The Chromium Project finds that 70 % of their issues are memory safety issues&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;error-handling-in-rust&quot;&gt;Error handling in Rust&lt;&#x2F;h2&gt;
+&lt;p&gt;Why no exceptions (try catch exception)&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Quote of the Week&lt;&#x2F;p&gt;
+&lt;p&gt;The whole motivation behind exceptions is to allow one to write ones business logic, concentrate on what one likes to think ones program will do, without having lots of fiddly error checking and handling code obscuring that logic. Error situations are therefore swept under the carpet with &amp;quot;try&amp;quot; and kept out of sight with &amp;quot;catch&amp;quot;.&lt;&#x2F;p&gt;
+&lt;p&gt;However in my world view failure is not exceptional, it is a common happening, it&#x27;s too important to be hidden away. Therefor failure handling should be in ones face in the code you write. Certainly in the face of those that read it.
+– ZiCog on rust-users&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;strong&gt;Refrences&lt;&#x2F;strong&gt;:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;blog.rust-lang.org&#x2F;2015&#x2F;05&#x2F;11&#x2F;traits.html&quot;&gt;Rust Blog: Abstraction without overhead: traits in Rust&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;words.steveklabnik.com&#x2F;borrow-checking-escape-analysis-and-the-generational-hypothesis&quot;&gt;Steve Klabnik Blog: Rust has a garbage collector&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;stackoverflow.com&#x2F;questions&#x2F;8122109&#x2F;difference-between-oop-interfaces-and-fp-type-classes&#x2F;8123973#8123973&quot;&gt;Stackoverflow: OOP Interface vs. Functional Programming Type Classes&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;pretzelhammer&#x2F;rust-blog&#x2F;blob&#x2F;master&#x2F;posts&#x2F;common-rust-lifetime-misconceptions.md#common-rust-lifetime-misconceptions&quot;&gt;Common Rust Lifetime Misconceptions&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>K8s: Microservices using Kubernetes</title>
+                <pubDate>Thu, 21 May 2020 19:28:58 +0000</pubDate>
+                <link>https://aslamplr.github.io/drafts/k8-microservices-using-kubernetes/</link>
+                <guid>https://aslamplr.github.io/drafts/k8-microservices-using-kubernetes/</guid>
+                <description>&lt;p&gt;&lt;code&gt;&#x2F;&#x2F; TODO:&lt;&#x2F;code&gt;&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>Docker: A container story</title>
+                <pubDate>Thu, 21 May 2020 19:26:54 +0000</pubDate>
+                <link>https://aslamplr.github.io/drafts/docker-a-container-story/</link>
+                <guid>https://aslamplr.github.io/drafts/docker-a-container-story/</guid>
+                <description>&lt;h2 id=&quot;what-is-docker&quot;&gt;What is docker?&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;what-are-containers&quot;&gt;What are containers?&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;why-is-docker-so-popular&quot;&gt;Why is docker so popular?&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;it-s-only-for-linux-right-what-about-windows&quot;&gt;It’s only for Linux right? What about Windows?&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;it-s-a-deployment-thing-right-why-should-i-bother-about-it&quot;&gt;It’s a deployment thing right? why should I bother about it?&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;what-is-a-dockerfile&quot;&gt;What is a &lt;code&gt;Dockerfile&lt;&#x2F;code&gt;?&lt;&#x2F;h2&gt;
+&lt;p&gt;Let’s see a sample from a code repo.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;how-to-install-docker-in-your-system&quot;&gt;How to install docker in your system?&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;mac&quot;&gt;Mac&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;linux&quot;&gt;Linux&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;windows&quot;&gt;Windows&lt;&#x2F;h3&gt;
+&lt;h2 id=&quot;let-s-roll-on-that-terminal-window&quot;&gt;Let’s roll on that terminal window.&lt;&#x2F;h2&gt;
+&lt;p&gt;Let’s execute some commands&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;build-an-app-quickly-with-node-js&quot;&gt;Build an app quickly with node.js&lt;&#x2F;h2&gt;
+&lt;h2 id=&quot;dockerize-it&quot;&gt;Dockerize it&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;for-development&quot;&gt;For development&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;for-test-and-deployment&quot;&gt;For test and deployment&lt;&#x2F;h3&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>Zola: The migration experience!</title>
+                <pubDate>Thu, 21 May 2020 19:16:51 +0000</pubDate>
+                <link>https://aslamplr.github.io/drafts/zola-the-migration-experience/</link>
+                <guid>https://aslamplr.github.io/drafts/zola-the-migration-experience/</guid>
+                <description>&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&quot;&gt;&lt;strong&gt;Zola&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;: A blazingly fast static site genetator written in Rust programming language. Inspired by &lt;a href=&quot;https:&#x2F;&#x2F;gohugo.io&#x2F;&quot;&gt;&lt;strong&gt;Hugo&lt;&#x2F;strong&gt;&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>Classify video using deep learning!</title>
+                <pubDate>Thu, 05 Sep 2019 11:13:14 +0000</pubDate>
+                <link>https://aslamplr.github.io/drafts/video-resnet/</link>
+                <guid>https://aslamplr.github.io/drafts/video-resnet/</guid>
+                <description>&lt;h2 id=&quot;what-is-video-resnet&quot;&gt;What is Video Resnet?&lt;&#x2F;h2&gt;
+&lt;p&gt;Video Resnet is a 3D CNN architecture uses residual learning (skip connections). This network perform 3D convolutions over the spatiotemporal video volume. &lt;&#x2F;p&gt;
+&lt;p&gt;2D Resnet has shown huge improvements in tasks such as image classification. But video classification, especially action recognition in video is less popular when compared to image classification. &lt;&#x2F;p&gt;
+&lt;p&gt;There are several architectures and research papers interested in video classification, or specifically action classification. Some of the great advances over the years in video classification are deeply rooted in advancement in image classification. &lt;&#x2F;p&gt;
+&lt;p&gt;Availability of a large scale dataset for video classification is also one reason the earlier research were focused on image classification techniques to achieve results in video classification. Most of the research utilize available small scale action recognition datasets. Earlier techniques explored the possibility of using 2D CNNs trained on ImageNet.&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>How to setup a blog site using hugo?</title>
+                <pubDate>Thu, 05 Sep 2019 09:15:08 +0000</pubDate>
+                <link>https://aslamplr.github.io/drafts/my-first-post/</link>
+                <guid>https://aslamplr.github.io/drafts/my-first-post/</guid>
+                <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;UPDATE&lt;&#x2F;strong&gt; (on 22-May-2020): This blog was written while this site was initially setup using &lt;strong&gt;&lt;a href=&quot;http:&#x2F;&#x2F;gohugo.io&#x2F;&quot;&gt;Hugo&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;. This site was recently migrated to &lt;strong&gt;&lt;a href=&quot;http:&#x2F;&#x2F;getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;. The title of this post is also changed from &lt;em&gt;&lt;strong&gt;&amp;quot;How I setup this blog site?&amp;quot;&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; to &lt;em&gt;&lt;strong&gt;&amp;quot;How to setup a blog site using hugo?&amp;quot;&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;This is supposed to be my first blog post. The truth is, this is my second blog post. I was wondering what I will write down in my first blog post other than about the &amp;quot;Video Resnet&amp;quot; which I already had in mind before starting to setup this site.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;This post is for you,&lt;&#x2F;strong&gt; If you like this blog site and want to setup one for you just like this one. You are looking for a static site generator. And if you are willing to write your blog posts in &lt;code&gt;markdown&lt;&#x2F;code&gt; format (other format are supported by this setup like &lt;code&gt;html&lt;&#x2F;code&gt; and so but I won&#x27;t discuss all that in this post). And bit of &lt;del&gt;expertise&lt;&#x2F;del&gt; familiarity with &lt;code&gt;git&lt;&#x2F;code&gt; and &lt;code&gt;github&lt;&#x2F;code&gt;. And willing to get your hands dirty in the command line. And if you love terminals. I ❤️ terminal windows!&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>
