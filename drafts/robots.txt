@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://aslamplr.github.io/drafts/sitemap.xml

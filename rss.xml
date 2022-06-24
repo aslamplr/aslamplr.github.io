@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Boom: Stacktrace!</title>
+        <link>https://aslamplr.github.io</link>
+        <description>Intentionally missing description.</description>
+        <generator>Zola</generator>
+        <language>en</language>
+        <atom:link href="https://aslamplr.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Thu, 05 Sep 2019 09:15:08 +0000</lastBuildDate>
+        
+            <item>
+                <title>How to setup a blog site using hugo?</title>
+                <pubDate>Thu, 05 Sep 2019 09:15:08 +0000</pubDate>
+                <link>https://aslamplr.github.io/my-first-post/</link>
+                <guid>https://aslamplr.github.io/my-first-post/</guid>
+                <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;UPDATE&lt;&#x2F;strong&gt; (on 22-May-2020): This blog was written while this site was initially setup using &lt;strong&gt;&lt;a href=&quot;http:&#x2F;&#x2F;gohugo.io&#x2F;&quot;&gt;Hugo&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;. This site was recently migrated to &lt;strong&gt;&lt;a href=&quot;http:&#x2F;&#x2F;getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;. The title of this post is also changed from &lt;em&gt;&lt;strong&gt;&amp;quot;How I setup this blog site?&amp;quot;&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt; to &lt;em&gt;&lt;strong&gt;&amp;quot;How to setup a blog site using hugo?&amp;quot;&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;This is supposed to be my first blog post. The truth is, this is my second blog post. I was wondering what I will write down in my first blog post other than about the &amp;quot;Video Resnet&amp;quot; which I already had in mind before starting to setup this site.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;This post is for you,&lt;&#x2F;strong&gt; If you like this blog site and want to setup one for you just like this one. You are looking for a static site generator. And if you are willing to write your blog posts in &lt;code&gt;markdown&lt;&#x2F;code&gt; format (other format are supported by this setup like &lt;code&gt;html&lt;&#x2F;code&gt; and so but I won&#x27;t discuss all that in this post). And bit of &lt;del&gt;expertise&lt;&#x2F;del&gt; familiarity with &lt;code&gt;git&lt;&#x2F;code&gt; and &lt;code&gt;github&lt;&#x2F;code&gt;. And willing to get your hands dirty in the command line. And if you love terminals. I ❤️ terminal windows!&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+</description>
+            </item>
+        
+    </channel>
+</rss>

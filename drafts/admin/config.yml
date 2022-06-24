@@ -1,0 +1,42 @@
+backend:
+  name: github
+  repo: aslamplr/blog
+  branch: master
+media_folder: "content/img/uploads"
+public_folder: "/img/uploads"
+collections:
+  - label: "Posts"
+    name: "posts"
+    folder: "content"
+    create: true
+    filter: { field: "category", value: "blog" }
+    format: "toml-frontmatter"
+    frontmatter_delimiter: [ "+++", "+++" ]
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Draft", name: "draft", widget: "boolean", default: true }
+      - { label: "Featured Image", name: "thumbnail", widget: "image", required: false }
+      - { label: "Category", name: "category", widget: "string", default: "blog" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - label: "Files"
+    name: "files"
+    files:
+      - label: "Site Config"
+        name: "config"
+        file: "config.toml"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Theme", name: "theme", widget: "string" }
+          - label: "Extra"
+            name: "extra"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Logo", name: "profile", widget: "string" }
+              - { label: "Github", name: "github", widget: "string" }
+              - { label: "Twitter", name: "twitter", widget: "string" }
+              - { label: "Email", name: "email", widget: "string" }
+
